@@ -27,12 +27,12 @@
 - Typical flow: `sbt test` for quick checks; `sbt +test` or `sbt buildAll` before PR. Coverage (when needed): `sbt coverage test coverageReport`.
 
 ## Issue & Pull Request Templates
-- We provide structured GitHub templates to streamline contributions. See [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) for templates.
+- We provide structured GitHub templates to streamline contributions and improve issue quality.
 - **Bug Reports** ([bug_report.yml](.github/ISSUE_TEMPLATE/bug_report.yml)): Use for crashes, errors, unexpected behavior. Include environment (Scala, JDK, OS), LLM provider/model, reproduction steps, and error logs.
 - **Feature Requests** ([feature_request.yml](.github/ISSUE_TEMPLATE/feature_request.yml)): Use for new functionality. Describe problem, proposed solution, alternatives considered, and willingness to implement.
 - **Enhancements** ([enhancement.yml](.github/ISSUE_TEMPLATE/enhancement.yml)): Use to improve existing features. Explain current behavior, proposed improvement, benefits, and implementation approach.
 - **Pull Request** ([pull_request_template.md](.github/pull_request_template.md)): Auto-populated when creating PR. Include description, issue references, type of change, testing done, documentation updates, and checklist verification.
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines and [docs/reference/contribution-guidelines.md](docs/reference/contribution-guidelines.md) for advanced patterns.
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed contribution guidelines and [contribution-guidelines.md](./docs/reference/contribution-guidelines.md) for advanced patterns.
 
 ## Commit & Pull Request Guidelines
 - Use short, imperative commit subjects (e.g., "Add centralized model metadata system") and include issue/PR refs when relevant.
