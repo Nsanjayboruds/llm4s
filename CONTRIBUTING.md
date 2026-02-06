@@ -295,12 +295,10 @@ Keep commits:
 git push origin feature/your-feature-name
 
 # Create PR on GitHub
-# Use the pull request template for details
+# Provide a clear description and reference related issues
 ```
 
 ### 4. PR Checklist
-
-Use the [Pull Request Template](.github/pull_request_template.md):
 
 - [ ] Describe the change clearly
 - [ ] Reference related issues

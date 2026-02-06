@@ -4,9 +4,9 @@ title: Quick Reference - Templates
 nav_order: 8
 ---
 
-# Quick Reference: Issue & PR Templates
+# Quick Reference: Issue Templates
 
-Fast lookup guide for using LLM4S issue and pull request templates.
+Fast lookup guide for using LLM4S issue templates.
 
 ## When to Use Each Template
 
@@ -64,26 +64,6 @@ Fast lookup guide for using LLM4S issue and pull request templates.
 
 ---
 
-### Pull Request 📝
-
-**Use when:**
-- You're submitting code changes
-- You've fixed a bug
-- You've implemented a feature
-- You've updated documentation
-
-**Checklist sections:**
-1. **Type of Change** - What kind of change is this?
-2. **Testing** - What testing did you do?
-3. **Documentation** - What docs need updating?
-4. **Code Quality** - Does code meet standards?
-5. **Breaking Changes** - Is this a breaking change?
-6. **Performance** - Any performance impact?
-
-**Template:** [pull_request_template.md](.github/pull_request_template.md)
-
----
-
 ## Quick Checklists
 
 ### Before Opening an Issue
@@ -93,17 +73,6 @@ Fast lookup guide for using LLM4S issue and pull request templates.
 - [ ] Provide steps to reproduce (if it's a bug)
 - [ ] Include your environment details
 - [ ] Use the appropriate template
-
-### Before Opening a PR
-
-- [ ] Branch from `main`
-- [ ] Run `sbt scalafmtAll` (formatting)
-- [ ] Run `sbt +test` (all tests)
-- [ ] Verify tests pass on both Scala versions
-- [ ] Add tests for new code
-- [ ] Update docs if needed
-- [ ] Fill out PR template completely
-- [ ] Reference related issues
 
 ### Before Submitting an Issue
 
@@ -169,24 +138,6 @@ Fast lookup guide for using LLM4S issue and pull request templates.
 - Ignore performance implications
 - Skip documentation updates
 
-### PR Tips
-
-✅ **DO:**
-- Keep PRs focused (one feature per PR)
-- Write descriptive commit messages
-- Check CI results before asking for review
-- Be responsive to feedback
-- Celebrate when merged! 🎉
-
-❌ **DON'T:**
-- Mix multiple features in one PR
-- Skip writing tests
-- Ignore failing CI checks
-- Push changes without discussing
-- Take feedback personally
-
----
-
 ## Template Features
 
 ### All Templates Include
@@ -205,19 +156,6 @@ Fast lookup guide for using LLM4S issue and pull request templates.
 - Environment tracking (Scala version, JDK, etc.)
 - Provider selection (for LLM provider specific issues)
 
-### PR Template Provides
-
-- **34 verification checkboxes**
-  - 7 for type of change
-  - 11 for testing approach
-  - 9 for documentation
-  - 7 for code quality
-- Clear sections for breaking changes
-- Performance impact tracking
-- Final verification checklist
-
----
-
 ## Template Locations
 
 ```
@@ -228,7 +166,6 @@ llm4s/
 │   │   ├── feature_request.yml
 │   │   ├── enhancement.yml
 │   │   └── config.yml
-│   └── pull_request_template.md
 ├── CONTRIBUTING.md              # Detailed contributor guide
 └── docs/reference/
     └── contribution-guidelines.md  # Advanced patterns

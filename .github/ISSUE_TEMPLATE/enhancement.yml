@@ -55,6 +55,19 @@ body:
     validations:
       required: true
 
+  - type: checkboxes
+    id: impact_areas
+    attributes:
+      label: Impact Areas
+      description: Select any that apply (leave blank if unsure).
+      options:
+        - label: API / Compatibility
+        - label: Security / Privacy
+        - label: Reliability / Availability
+        - label: Performance
+        - label: Documentation
+        - label: Unsure
+
   - type: textarea
     id: implementation
     attributes:

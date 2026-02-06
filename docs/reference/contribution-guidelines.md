@@ -125,7 +125,7 @@ sbt buildAll
 [DOCS] Update configuration guide
 ```
 
-**Use PR template** (auto-populated from `.github/pull_request_template.md`):
+**Include in your PR description:**
 - Clear description
 - Issue references
 - Testing approach
